@@ -12,8 +12,8 @@
   </component>
   <component name="ChangesViewManager">
     <option name="groupingKeys">
-      <option value="directory" />
       <option value="repository" />
+      <option value="directory" />
     </option>
   </component>
   <component name="Git.Settings">
@@ -47,8 +47,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="npm.start">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -63,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -88,7 +99,7 @@
       <workItem from="1668293699060" duration="11000" />
       <workItem from="1668340137744" duration="43000" />
       <workItem from="1668357670402" duration="1481000" />
-      <workItem from="1668361761526" duration="60000" />
+      <workItem from="1668361761526" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="info data have been improved">
       <created>1668358402235</created>
